@@ -1,18 +1,16 @@
 <template>
-  <h1>Hello World</h1>
-  <h3></h3>
+  <Header />
+  <Home />
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import Home from "./pages/Home.vue";
+import Header from "./components/Header.vue";
 
-export default defineComponent({
-  name: 'App',
-  components: {
-  
-  }
-});
+export default {
+  name: "App",
+  components: { Header, Home },
+};
 </script>
 
-<style>
-</style>
+<style></style>
