@@ -1,6 +1,7 @@
 <template>
   <div class="card-holder">
     <span class="title">{{ title }}</span>
+    <slot></slot>
   </div>
 </template>
 
